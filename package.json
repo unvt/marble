@@ -1,0 +1,32 @@
+{
+  "name": "mable",
+  "version": "0.0.1",
+  "description": "A vector tile server expanded for ArcGIS online consumption",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unvt/marble.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "https://github.com/unvt/marble#LICENSE",
+  "bugs": {
+    "url": "https://github.com/unvt/marble/issues"
+  },
+  "dependencies": {
+    "@mapbox/mbtiles": "^0.12.1",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "hh-mm-ss": "^1.2.0",
+    "hjson": "^3.2.2",
+    "morgan": "^1.10.0",
+    "spdy": "^4.0.2",
+    "sqlite3": "^5.0.2",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.5"
+  }
+}
