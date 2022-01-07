@@ -4,7 +4,7 @@
   "sources": {
     "ne-test": {
       "type": "vector",
-      "url": "https://unvt.github.io/marble/esriIF/ne-test/VectorTileServer/",
+      "url": "http://localhost:8836/esriIF/ne-test/VectorTileServer/",
       "minzoom": 0,
       "maxzoom": 5
     }
