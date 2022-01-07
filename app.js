@@ -1,5 +1,5 @@
 const config = require('config')
-const fs = require('fs')
+//onst fs = require('fs')
 const express = require('express')
 //const spdy = require('spdy') //for https
 const cors = require('cors') 
@@ -11,10 +11,9 @@ const DailyRotateFile = require('winston-daily-rotate-file')
 // config constants
 const morganFormat = config.get('morganFormat')
 const htdocsPath = config.get('htdocsPath')
-const privkeyPath = config.get('privkeyPath')
-const fullchainPath = config.get('fullchainPath')
+//const privkeyPath = config.get('privkeyPath') //for https
+//const fullchainPath = config.get('fullchainPath') //for https
 const port = config.get('port') 
-const mbtilesDir = config.get('mbtilesDir')
 const logDirPath = config.get('logDirPath')
 
 // logger configuration
