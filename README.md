@@ -49,8 +49,15 @@ Please refer to ArcGIS API to prepare index.json.
 
 ## Vector Tile Style
 A style.json in esri/(data_name) will be delivered from:  
- http://localhost:8836/esriIF/(data_name)/VectorTileServer/resources/style  
-style.json should be concordant with the mapbox style specification and/or MapLibre style specification. However, from my presonal experiences, I think some advanced expression might not work for ArcGIS online.
+ http://localhost:8836/esriIF/(data_name)/VectorTileServer/resources/styles  
+style.json should be concordant with the mapbox style specification and/or MapLibre style specification. However, from my presonal experiences, I think some advanced expression might not work for ArcGIS online.  
+
+(note)
+I found that ArcGIS REST API indicates the service path as ..../resources/style, however, if we look at the actual server by esri, it is using the path like .../resources/styles, so I decided to use "styles" not "style."  
+
+[ArcGIS REST API](https://developers.arcgis.com/rest/services-reference/enterprise/vector-tile-style.htm)  
+[Actual example](https://basemaps.arcgis.com/arcgis/rest/services/OpenStreetMap_v2/VectorTileServer/resources/styles/root.json)
+
 
 ## tilemap
 * This server has a minimum tilemap function. This is a simple tilemap and does not fully cover ESRI's tilemap function. Thinking the tilemap function actually used in ArcGIS online, I have prepared a minimum function as below.  

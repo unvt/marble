@@ -34,7 +34,7 @@ router.get(`/:t/VectorTileServer`,
 )
 
 //Returing a style file --> make sure that the style.json is ready
-router.get(`/:t/VectorTileServer/resources/style`,  //need to think about other request f=json, index.json etc
+router.get(`/:t/VectorTileServer/resources/styles`,  //need to think about other request f=json, index.json etc
  async function(req, res) {
   busy = true
   const t = req.params.t
