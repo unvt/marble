@@ -71,7 +71,10 @@ I found that ArcGIS REST API indicates the service path as ..../resources/style,
 
 
 # References
+* Using External Vector tiles in ArcGIS Online (in Japanese): https://qiita.com/T-ubu/items/1f772fd92ec8dfb0c2b2
 * ArcGIS REST API: https://developers.arcgis.com/rest/services-reference/enterprise/tile-map.htm
 * Observation of ArcGIS Online tilemap function (in Japanese): https://qiita.com/T-ubu/items/6360252ece6c792732c7
 * Traial of making static tilemap with GitHub page (in Japanese): https://qiita.com/T-ubu/items/317624fa7652aff9b9ed
+
+
  
